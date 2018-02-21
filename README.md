@@ -27,7 +27,6 @@ SERVER CONFIGURATION
 
     # Trash the existing database
         rm /opt/course_www/vsagent-504/server/data.db
-/etc/init.d/nginx restart
 
     # Restart nginx
         service nginx restart 
